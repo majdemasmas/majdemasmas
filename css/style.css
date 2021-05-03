@@ -1,45 +1,3 @@
-/* =======================================================
-    Template Name: Sum Personal CV / Resume HTML Template
-    Author: theme-village
-    Author URI: www.theme-village.com
-    Developed By: Tariqul Islam
-
-/* ============================================
-    Style Index
-===============================================
-
-    1. Template Basic
-    2. Common Style
-    3. Preloader
-    4. Header Menu Section
-    5. About Section
-    6. Resume Section
-    7. Fun Section
-    8. Service Section
-    9. Work Process Section
-    10.Portfolio Section
-    11. Hire Section
-    12. Pricing Section
-    13. Testimonial Section
-    14. Blog Section
-    15. Award Section
-    16. Contact Section
-    17. Footer Section
-    18. Home Versions(2,3,4)
-    19. Single Blog
-    19.1 Post comments
-    19.2 Write Comments
-    19.3 Sidebar
-
-/* =========================================
-1.  Template Basic
-============================================*/
-/*!
- * Bootstrap v4.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2920,7 +2878,7 @@ input[type="button"].btn-block {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: center; }
 
 .navbar-brand {
   display: inline-block;
@@ -2952,8 +2910,6 @@ input[type="button"].btn-block {
   padding-bottom: 0.5rem; }
 
 .navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
   align-items: center; }
 
 .navbar-toggler {
