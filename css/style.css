@@ -6963,7 +6963,7 @@ Owl Nav*/
       width: 50px;
       height: 50px;
       margin: 31px auto;
-      background: #48d8bb;
+      background: #6d2020;
       border-radius: 100px;
       -webkit-animation-name: bubble-anim;
       animation-name: bubble-anim;
@@ -6985,12 +6985,12 @@ Owl Nav*/
   30% {
     width: 30px;
     height: 30px;
-    background-color: #6cd8c4;
+    background-color: #6d2020;
     -webkit-transform: translateY(-15px); }
   100% {
     width: 50px;
     height: 50px;
-    background-color: #48d8bb;
+    background-color: #6d2020;
     -webkit-transform: translateY(-26px); } }
 @keyframes bubble-anim {
   0% {
@@ -7001,12 +7001,12 @@ Owl Nav*/
   30% {
     width: 30px;
     height: 30px;
-    background-color: #6cd8c4;
+    background-color: #6d2020;
     -webkit-transform: translateY(-15px); }
   100% {
     width: 50px;
     height: 50px;
-    background-color: #48d8bb;
+    background-color: #6d2020;
     -webkit-transform: translateY(-26px); } }
 /* =====================================
 4. Header Menu Section
