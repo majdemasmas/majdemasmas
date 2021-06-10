@@ -7199,7 +7199,7 @@ Owl Nav*/
 4. About Section
 ================================================*/
 .about-section {
-  padding: 85px 0px 80px;
+  padding: 85px 0px 50px;
   background: #f7f7f7; }
   @media (max-width: 767px) {
     .about-section {
@@ -7653,7 +7653,7 @@ background: #6d2020;}
     .grid-item .modal-dialog .demo-details {
       padding: 20px 0 0px; }
       .grid-item .modal-dialog .demo-details .project-heading {
-        font-size: 20px;
+        font-size: 17px;
         margin: 10px 0 6px; }
       .grid-item .modal-dialog .demo-details .category {
         font-size: 12px;
@@ -8845,12 +8845,28 @@ background: #6d2020;}
         margin-top: 20px; }
 
         .skills-list{
-          font-size: 1.2rem;
+          font-size: 1.3rem;
+          column-count: 3;
+        }
+
+        @media (min-width:1200px){
+          .full-image{
+            width:90%;
+          }
+        }
+        .full-image{
+          width:100%;max-width: 100%;max-height: 611px;object-fit: cover;object-position: top;
         }
 
         @media (min-width: 576px) and (max-width:1200px){
           .skills-list{
             column-count: 2;
+          }
+        }
+
+        @media (max-width: 576px){
+          .skills-list{
+            column-count: 1;
           }
         }
 
